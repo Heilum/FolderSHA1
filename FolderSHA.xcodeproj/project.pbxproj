@@ -11,6 +11,8 @@
 		7BEECBF12068A36800B4A474 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEECBF02068A36800B4A474 /* ViewController.swift */; };
 		7BEECBF32068A36800B4A474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEECBF22068A36800B4A474 /* Assets.xcassets */; };
 		7BEECBF62068A36800B4A474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEECBF42068A36800B4A474 /* Main.storyboard */; };
+		7BEECC012068B60700B4A474 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7BEECBFF2068B60700B4A474 /* README.md */; };
+		7BEECC022068B60700B4A474 /* s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEECC002068B60700B4A474 /* s1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7BEECBF72068A36800B4A474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEECBF82068A36800B4A474 /* FolderSHA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FolderSHA.entitlements; sourceTree = "<group>"; };
 		7BEECBFE2068A9DD00B4A474 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		7BEECBFF2068B60700B4A474 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7BEECC002068B60700B4A474 /* s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		7BEECBE22068A36800B4A474 = {
 			isa = PBXGroup;
 			children = (
+				7BEECBFF2068B60700B4A474 /* README.md */,
+				7BEECC002068B60700B4A474 /* s1.png */,
 				7BEECBED2068A36800B4A474 /* FolderSHA */,
 				7BEECBEC2068A36800B4A474 /* Products */,
 			);
@@ -124,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEECC012068B60700B4A474 /* README.md in Resources */,
+				7BEECC022068B60700B4A474 /* s1.png in Resources */,
 				7BEECBF32068A36800B4A474 /* Assets.xcassets in Resources */,
 				7BEECBF62068A36800B4A474 /* Main.storyboard in Resources */,
 			);
