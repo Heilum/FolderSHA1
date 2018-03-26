@@ -21,6 +21,7 @@
 		7BEECBF52068A36800B4A474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BEECBF72068A36800B4A474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEECBF82068A36800B4A474 /* FolderSHA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FolderSHA.entitlements; sourceTree = "<group>"; };
+		7BEECBFE2068A9DD00B4A474 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 				7BEECBF42068A36800B4A474 /* Main.storyboard */,
 				7BEECBF72068A36800B4A474 /* Info.plist */,
 				7BEECBF82068A36800B4A474 /* FolderSHA.entitlements */,
+				7BEECBFE2068A9DD00B4A474 /* BridgingHeader.h */,
 			);
 			path = FolderSHA;
 			sourceTree = "<group>";
@@ -271,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swordfish.ios.FolderSHA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FolderSHA/BridgingHeader.h;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -287,6 +290,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swordfish.ios.FolderSHA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FolderSHA/BridgingHeader.h;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
