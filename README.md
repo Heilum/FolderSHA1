@@ -3,7 +3,7 @@
 
 This project illustrates how to compute files' SHA1 recursively
 
-![ScreenShot](https://raw.github.com/JagieChen/FolderSHA/master/s1.png)
+![ScreenShot](https://raw.github.com/JagieChen/FolderSHA1/master/s1.png)
 
 
 
